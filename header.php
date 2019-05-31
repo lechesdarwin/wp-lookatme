@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php bloginfo("name")?></title>
+    <title><?php wp_title(bloginfo("name")."|",true,"rigth");?></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -61,7 +61,7 @@
     document.getElementById("puto").setAttribute("md-logo",`(>${a})`);
     </script>
     
-    <? } ?>
+    <?php } ?>
     <meod-toolbar md-action md-action-use="back" id="puto" md-action-sd md-action-use-sd></meod-toolbar>
     <script>
     console.log(<?php echo $url?>)

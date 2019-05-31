@@ -1,6 +1,6 @@
 <?php if (is_home() || is_front_page()) {?>
   <div class="pagrss" style="margin-top: 100px;">
-<? }?>
+<?php }?>
 <div class="pagrss" style="margin-top: 20px;">
   <div class="rss">
   <!-- <span class="s1"> -->
